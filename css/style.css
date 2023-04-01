@@ -1,0 +1,107 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    min-height: 75vh;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+}
+
+.login-image-container {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content-container {
+    width: 50%;
+    background: #141b65;
+    border-radius: 2rem 0.5rem 2rem 0.5rem;
+    color: #ffff;
+    padding: 15px 10px;
+    box-shadow: 6px 10px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 10px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 32px 0px rgba(0,0,0,0.75);
+}
+
+.titulo-login {
+    text-align: center;
+    font-weight: 500;
+}
+
+.monto {
+    color: rgb(107, 179, 0);
+    font-size: 1.2rem;
+}
+
+.monto2 {
+    color: rgb(107, 179, 0);
+    font-size: 1.5rem;
+}
+
+.login-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-home,
+.titulo-transaccion,
+.titulo-historial {
+    text-align: center;
+}
+
+.card-container-cuentas {
+    padding: 10px;
+}
+
+.linea-divisora-home {
+    width: 100%;
+    height: 3px;
+    background: gray;
+}
+
+.trans-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trans-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .login-image-container {
+        display: none;
+    }
+
+    .login-form-container {
+        width: 100%;
+    }
+
+    .login-form-container {
+        width: 100%
+    }
+}
